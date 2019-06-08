@@ -22,7 +22,8 @@
 		],
 		"menus": {
 			"editor/context": [{
-				"command": "extension.createTable"
+				"command": "extension.createTable",
+				"when": "editorLangId == latex"
 			}]
 		}
 	},
